@@ -22,10 +22,15 @@
   border-top: var(--main-border);
 }
 
+.friend-screen__friend {
+  /* margin-top: 10px; */
+  padding: 15px 0px;
+}
+
 .friend-screen__channel-header {
   display: flex;
   justify-content: space-between;
-  margin-bottom: 30px;
+  margin-bottom: 15px;
   color: rgba(0, 0, 0, 0.5);
 }
 
@@ -63,7 +68,3 @@
     /* transform: scale(3);
   }
  } */
-
-.user-component__avatar:hover {
-  animation: zoomPicture 1s ease-in-out forwards;
-}
