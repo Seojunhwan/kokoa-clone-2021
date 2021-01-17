@@ -22,9 +22,6 @@
   bottom: 15px;
 }
 
-.dot {
-  width: 6px;
-  height: 6px;
-  left: 32px;
-  top: -9px;
+.nav__btn .dot {
+  right: -5px;
 }

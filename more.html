@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Friend - KakaoTalk</title>
+    <title>More - KakaoTalk</title>
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
@@ -22,18 +22,20 @@
       </div>
     </div>
     <header class="screen-header">
-      <h1 class="screen-header__title">Friends</h1>
+      <h1 class="screen-header__title">More</h1>
       <div class="screen-header__icons">
-        <span><i class="fas fa-search fa-lg"></i></span>
+        <span><i class="fas fa-search fa-lg"></i> </span>
         <span><i class="fas fa-music fa-lg"></i></span>
-        <span><i class="fas fa-cog fa-lg"></i></span>
+        <span>
+          <a href="setting.html">
+            <i class="fas fa-cog fa-lg"></i>
+            <div class="dot"></div
+          ></a>
+        </span>
       </div>
     </header>
-    <a id="friends-display-link">
-      <i class="fas fa-info-circle"></i> Friends' Names Display
-      <i class="fas fa-chevron-right fa-xs"></i>
-    </a>
-    <main class="friends-screen">
+
+    <main class="main-screen more-screen">
       <div class="user-component">
         <div class="user-component__column">
           <img
@@ -43,45 +45,57 @@
           />
           <div class="user-component__text">
             <h4 class="user-component__title">서감자</h4>
-            <h6 class="user-component__subtitle user-component__subtitle--kor">
-              견생 9년차 인생 쓰다
+            <h6 class="user-component__subtitle">
+              +82 010-9630-0760 <i class="fas fa-exclamation-circle"></i>
             </h6>
           </div>
         </div>
-        <div class="user-component__column"></div>
-      </div>
-      <div class="friend-screen__channel">
-        <div class="friend-screen__channel-header">
-          <span>Channel</span>
-          <i class="fas fa-chevron-up fa-xs"></i>
+        <div class="user-component__column">
+          <i class="far fa-comment-alt fa-2x"></i>
         </div>
-        <div class="user-component">
-          <div class="user-component__column">
-            <img
-              src="img/IMG_5735.jpeg"
-              src="https://scontent-ssn1-1.xx.fbcdn.net/v/t1.0-9/119236208_1988684311282826_3060266203683319830_o.jpg?_nc_cat=105&ccb=2&_nc_sid=730e14&_nc_eui2=AeHCkI7pMhDvyvtFVBgOgfJHg72Xnc96GpCDvZedz3oakBaSVjzSeId5h80MlQ85k5kOcW2gkP27lfY6PzNkZpww&_nc_ohc=X7UkBb4cXtUAX83Ls4u&_nc_ht=scontent-ssn1-1.xx&oh=a6fdb306f9c3a95b5d304d922c128b0b&oe=602778C4"
-              class="user-component__avatar user-component__avatar--xs"
-            />
-            <div class="user-component__text">
-              <h4 class="user-component__title user-component__title--not-bold">
-                서구마
-              </h4>
+      </div>
+      <div class="icon-row">
+        <div class="icon-row__icon">
+          <i class="far fa-calendar"></i>
+          <span>Calendar</span>
+        </div>
+        <div class="icon-row__icon">
+          <i class="far fa-smile-beam"></i>
+          <span>Talk Drive</span>
+        </div>
+        <div class="icon-row__icon">
+          <i class="fas fa-paint-roller"></i>
+          <span>Emotion</span>
+        </div>
+        <div class="icon-row__icon">
+          <i class="fas fa-file-invoice"></i>
+          <span>Account</span>
+        </div>
+      </div>
+      <div class="more-suggestions">
+        <h4 class="more-suggestions__title">Suggestions</h4>
+        <div class="more-suggestions__icons">
+          <div class="more-suggestions__icon">
+            <div class="more-suggestions__icon-image">
+              <i class="fas fa-quote-right"></i>
             </div>
+            <span class="more-suggestions__icon-text">KaKao Story</span>
           </div>
-          <div class="user-component__column">
-            <div>
-              <span>2</span>
-              <i class="fas fa-chevron-right fa-xs"></i>
+          <div class="more-suggestions__icon">
+            <div class="more-suggestions__icon-image">
+              <i class="fas fa-quote-right"></i>
             </div>
+            <span class="more-suggestions__icon-text">KaKao Story</span>
           </div>
         </div>
       </div>
     </main>
+
     <nav class="nav">
       <ul class="nav__list">
         <li class="nav__btn">
           <a class="nav__link" href="friends.html">
-            <i class="fas fa-user fa-2x"></i>
+            <i class="far fa-user fa-2x"></i>
           </a>
         </li>
         <li class="nav__btn">

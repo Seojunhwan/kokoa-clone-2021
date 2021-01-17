@@ -31,10 +31,15 @@
   font-size: 22px;
 }
 
-.user-componet__subtitle {
+.user-component__subtitle {
   margin-top: 8px;
-  color: rgba(0, 0, 0, 0.5);
+  color: var(--gray);
   font-size: 17px;
+}
+
+.user-component__subtitle--kor {
+  font-weight: 300;
+  font-size: 14px;
 }
 
 .user-component__title--not-bold {
@@ -42,7 +47,8 @@
 }
 
 .user-component__column:last-child {
-  color: rgba(0, 0, 0, 0.4);
+  color: var(--gray);
+  /* color: rgba(0, 0, 0, 0.4); */
   display: flex;
   flex-direction: column;
   align-items: flex-end;
