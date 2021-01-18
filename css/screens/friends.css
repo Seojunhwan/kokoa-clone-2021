@@ -23,6 +23,7 @@
 }
 
 .friend-screen__friend {
+  margin-top: 15px;
   /* margin-top: 10px; */
   padding: 15px 0px;
 }
