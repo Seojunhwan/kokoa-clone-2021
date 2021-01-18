@@ -10,6 +10,7 @@
 @import "components/icon-row.css";
 @import "components/alt-screen-header.css";
 @import "components/no-mobile.css";
+@import "components/gallery_narrow-width.css";
 /* Screens */
 @import "screens/login.css";
 @import "screens/friends.css";
@@ -17,6 +18,7 @@
 @import "screens/more.css";
 @import "screens/settings.css";
 @import "screens/chat.css";
+@import "screens/gallery.css";
 
 body {
   /* font-family: "Open Sans", sans-serif; */

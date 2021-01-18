@@ -15,10 +15,11 @@
 
 .more-suggestions__icons {
   display: flex;
+  justify-content: space-between;
 }
 
 .more-suggestions__icon {
-  margin-right: 30px;
+  margin: 0px 15px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -38,4 +39,10 @@
 .more-suggestions__icon-image i {
   font-size: 32px;
   color: black;
+}
+
+.gallery__icon .more-suggestions__icon-image {
+  background-color: white;
+
+  box-shadow: 1px 1px 10px -5px black;
 }
